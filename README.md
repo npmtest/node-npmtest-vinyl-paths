@@ -1,6 +1,6 @@
 # npmtest-vinyl-paths
 
-#### test coverage for  [vinyl-paths (v2.1.0)](https://github.com/sindresorhus/vinyl-paths)  [![npm package](https://img.shields.io/npm/v/npmtest-vinyl-paths.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-vinyl-paths) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-vinyl-paths.svg)](https://travis-ci.org/npmtest/node-npmtest-vinyl-paths)
+#### basic test coverage for  [vinyl-paths (v2.1.0)](https://github.com/sindresorhus/vinyl-paths)  [![npm package](https://img.shields.io/npm/v/npmtest-vinyl-paths.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-vinyl-paths) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-vinyl-paths.svg)](https://travis-ci.org/npmtest/node-npmtest-vinyl-paths)
 
 #### Get the file paths in a vinyl stream
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-vinyl-paths/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-vinyl-paths/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-vinyl-paths/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-vinyl-paths/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-vinyl-paths/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-vinyl-paths/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-vinyl-paths/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-vinyl-paths/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-vinyl-paths/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-vinyl-paths/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-vinyl-paths/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-vinyl-paths/build/coverage.html/index.html)
 
@@ -91,7 +91,8 @@
     "scripts": {
         "test": "xo && ava"
     },
-    "version": "2.1.0"
+    "version": "2.1.0",
+    "bin": {}
 }
 ```
 
